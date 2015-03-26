@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1227330239, guid: 9fa2ecd1ff2ad394281dd3bf72c5b76e, type: 3}
+  m_Name: CharacterBehaviour
+  m_EditorClassIdentifier: 
+  _dataSerializer:
+    _serializedData: <scriptableobject version="1.2" type="RAIN.BehaviorTrees.BTAsset"><fields><field
+      value="&lt;behaviortree version=&quot;1.1&quot; repeatuntil=&quot;&quot; name=&quot;CharacterBehaviour&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;sequencer usepriorities=&quot;False&quot;
+      repeatuntil=&quot;&quot; name=&quot;root&quot; debugbreak=&quot;False&quot;&gt;&lt;treebinding
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Walk&quot; debugbreak=&quot;False&quot;
+      binding=&quot;WalkBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot;
+      priority=&quot;&quot; name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Jog&quot; debugbreak=&quot;False&quot;
+      binding=&quot;JogBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot;
+      priority=&quot;&quot; name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Run&quot; debugbreak=&quot;False&quot;
+      binding=&quot;RunBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot;
+      priority=&quot;&quot; name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Stairs&quot; debugbreak=&quot;False&quot;
+      binding=&quot;StairsBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;2&quot;
+      returnvalue=&quot;success&quot; priority=&quot;&quot; name=&quot;timer&quot;
+      debugbreak=&quot;False&quot; /&gt;&lt;treebinding repeatuntil=&quot;&quot; priority=&quot;&quot;
+      name=&quot;CrouchStart&quot; debugbreak=&quot;False&quot; binding=&quot;CrouchStartBTBinding&quot;
+      /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot; priority=&quot;&quot;
+      name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;Crouch&quot; debugbreak=&quot;False&quot; binding=&quot;CrouchBTBinding&quot;
+      /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot; priority=&quot;&quot;
+      name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;WalkJump&quot; debugbreak=&quot;False&quot;
+      binding=&quot;LogHurdleBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;2&quot;
+      returnvalue=&quot;success&quot; priority=&quot;&quot; name=&quot;timer&quot;
+      debugbreak=&quot;False&quot; /&gt;&lt;treebinding repeatuntil=&quot;&quot; priority=&quot;&quot;
+      name=&quot;HopStart&quot; debugbreak=&quot;False&quot; binding=&quot;HopStartBTBinding&quot;
+      /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot; priority=&quot;&quot;
+      name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;HopBehaviour&quot; debugbreak=&quot;False&quot;
+      binding=&quot;HopBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;2&quot; returnvalue=&quot;success&quot;
+      priority=&quot;&quot; name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;treebinding
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Finish&quot; debugbreak=&quot;False&quot;
+      binding=&quot;FinishBTBinding&quot; /&gt;&lt;timer waitforsec=&quot;5&quot;
+      returnvalue=&quot;success&quot; priority=&quot;&quot; name=&quot;timer&quot;
+      debugbreak=&quot;False&quot; /&gt;&lt;/sequencer&gt;&lt;/behaviortree&gt;" type="System.String"
+      id="treeData" /><field type="System.Array" id="treeBindings" elementtype="System.String"><field
+      value="WalkBTBinding" type="System.String" id="element0" /><field value="JogBTBinding"
+      type="System.String" id="element1" /><field value="RunBTBinding" type="System.String"
+      id="element2" /><field value="StairsBTBinding" type="System.String" id="element3"
+      /><field value="CrouchStartBTBinding" type="System.String" id="element4" /><field
+      value="CrouchBTBinding" type="System.String" id="element5" /><field value="LogHurdleBTBinding"
+      type="System.String" id="element6" /><field value="HopStartBTBinding" type="System.String"
+      id="element7" /><field value="HopBTBinding" type="System.String" id="element8"
+      /><field value="FinishBTBinding" type="System.String" id="element9" /></field></fields><references
+      /></scriptableobject>
+    _serializedGameObjects: []
+    _serializedCustomData: []
