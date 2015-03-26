@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PauseScreen.js">
     <Files>
-      <File FileName="Assets\Scripts\PauseScreen.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PauseScreen.js" Line="126" Column="2" />
       <File FileName="Assets\Scripts\WebCamFollow.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Webcam.cs" Line="19" Column="2" />
-      <File FileName="Assets\Scripts\MainMenuButtons.js" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\Webcam.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenuButtons.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\inputName.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

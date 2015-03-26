@@ -253,7 +253,7 @@ GameObject:
   - 4: {fileID: 24749156}
   - 212: {fileID: 24749157}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: NPCTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1174,7 +1174,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 1500
   Pan2D: 0
